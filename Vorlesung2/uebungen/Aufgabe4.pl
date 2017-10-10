@@ -1,4 +1,7 @@
-@a = (-20..-1);
+use strict;
+use warnings FATAL => 'all';
+$| = 1;
+my @a = (-20..-1);
 for(@a){
 		print abs($_)."\n";
 }
